@@ -1,8 +1,8 @@
-# Example
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  # ...
+  name: ecs
+  description: Track ecs components
   annotations:
     aws.amazon.com/amazon-ecs-service-tags: component=myapp,environment=prod
 spec:
