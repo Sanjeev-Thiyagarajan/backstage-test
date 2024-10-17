@@ -7,4 +7,5 @@ metadata:
     aws.amazon.com/amazon-ecs-service-tags: component=myapp,environment=prod
 spec:
   type: service
+  lifecycle: production
   # ...
